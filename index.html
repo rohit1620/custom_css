@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Exile&family=Playwrite+PL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Custom_Css</title>
+    <style>
+      .sectionA h1 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        /* font-weight: lighter; */
+        line-height: 1.2;
+        font-weight: 600;
+        color: #1f2937;
+      }
+      .sectionA_div0 {
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+      .sectionA_div1 {
+        height: 200px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+      .sectionA_div1 > h4 {
+        color: gray;
+        margin-left: 15px;
+      }
+      .sectionA_div1 > p {
+        color: gray;
+        margin-left: 15px;
+        margin-top: -10px;
+        margin-right: 10px;
+      }
+      .image {
+        height: 50px;
+        width: 50px;
+        border: 1px solid indigo;
+        border-radius: 50%;
+        margin-top: 25px;
+        margin-left: 15px;
+      }
+      @media screen and (max-width: 968px) {
+        .sectionA_div0 {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+        }
+        .sectionA_div1 {
+          height: 225px;
+        }
+      }
+      @media screen and (max-width: 580px) {
+        .sectionA_div0 {
+          grid-template-columns: repeat(1, 1fr);
+          gap: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(214, 213, 213)">
+    <section class="sectionA">
+      <h1>We work in dedicated project <br />teams, UX design</h1>
+      <div class="sectionA_div0">
+        <div class="sectionA_div1">
+          <div style="height: 15px; background-color: rgb(199, 42, 139)"></div>
+          <img src="./images/image-icon-png-6.jpg" alt="" class="image" />
+          <h4>Research need developer</h4>
+          <p>
+            Discover pain and point understand user behaviour user behaviour okk
+          </p>
+        </div>
+        <div class="sectionA_div1">
+          <div style="height: 15px; background-color: turquoise"></div>
+          <img src="./images/image-icon-png-6.jpg" alt="" class="image" />
+          <h4>Research need developer</h4>
+          <p>
+            Discover pain and point understand user behaviour user behaviour okk
+          </p>
+        </div>
+        <div class="sectionA_div1">
+          <div style="height: 15px; background-color: rgb(92, 216, 92)"></div>
+          <img src="./images/image-icon-png-6.jpg" alt="" class="image" />
+          <h4>Research need developer</h4>
+          <p>
+            Discover pain and point understand user behaviour user behaviour okk
+          </p>
+        </div>
+        <div class="sectionA_div1">
+          <div style="height: 15px; background-color: yellow"></div>
+          <img src="./images/image-icon-png-6.jpg" alt="" class="image" />
+          <h4>Research need developer</h4>
+          <p>
+            Discover pain and point understand user behaviour user behaviour okk
+          </p>
+        </div>
+        <div class="sectionA_div1">
+          <div style="height: 15px; background-color: rgb(177, 90, 240)"></div>
+          <img src="./images/image-icon-png-6.jpg" alt="" class="image" />
+          <h4>Research need developer</h4>
+          <p>
+            Discover pain and point understand user behaviour user behaviour okk
+          </p>
+        </div>
+        <div class="sectionA_div1">
+          <div style="height: 15px; background-color: rgb(212, 114, 175)"></div>
+          <img src="./images/image-icon-png-6.jpg" alt="" class="image" />
+          <h4>Research need developer</h4>
+          <p>
+            Discover pain and point understand user behaviour user behaviour okk
+          </p>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center">
+        <button
+          style="
+            padding: 12px 25px;
+            /* margin-top: 50px; */
+            background-color: rgb(199, 42, 139);
+            font-weight: lighter;
+            border: none;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 10px;
+            color: rgb(216, 207, 207);
+            margin: auto;
+            align-items: center;
+          "
+        >
+          contact us
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
